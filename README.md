@@ -23,8 +23,8 @@ This project requires Python 3 and the following Python libraries installed:
 kc_house_dataset.csv
 
 ## Deliverables:
-- jupyter notebook
-- powerpoint slides
+- Jupyter notebook
+- Presentation slides
 
 ## Methodology and findings
 We used linear regression models to fit with our dataset from three angles:

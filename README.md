@@ -17,7 +17,6 @@ This project requires Python 3 and the following Python libraries installed:
 - statsmodels.api
 - scikit.learn
 - scipy
-- geopandas
 - descartes
 
 ## Data
@@ -33,7 +32,7 @@ We used linear regression models to fit with our dataset from three angles:
 - Geographic features of property
 - Zipcode of property
 
-From the analysis of internal features angle, we find housing grade system and square foot area expect basement have stronger impacts on housing price, and instead of looking into various internal housing features, we suggest the property agency just focus on few of them (e.g. ignore square foot per living as it already shows in other features)
+From the analysis of internal features angle, we find housing grade system and square foot area expect basement have stronger impacts on housing price, and instead of looking into various internal housing features, we suggest the property agency just focus on few of them (e.g. ignore square foot per living and bathrooms as the information has indirectly shown in other features)
 <br>
 <br>
 From the analysis of geographic angle, features affecting the pricing of square footage are: waterfront, and latitudinal and longitudinal coordinates. The closer to water bodies, the higher the price.More research must be carried out in order to find the best value for money, regarding square footage of living areas without comprimising with premium features
